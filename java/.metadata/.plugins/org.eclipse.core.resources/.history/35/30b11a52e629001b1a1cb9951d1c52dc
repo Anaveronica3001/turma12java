@@ -1,0 +1,54 @@
+package aulas;
+
+public class lista4ex1 {
+
+	/* 	Elabore um programa que calcule o que deve ser pago por um produto, considerando o preço normal de etiqueta e a
+	 *  escolha da condição de pagamento. Utilize os códigos da tabela a seguir para ler qual a condição de pagamento
+	 *   escolhida e efetuar o cálculo adequado.
+			Código Condição de pagamento
+	 		À vista em dinheiro ou cheque, recebe 20% de desconto
+			2 À vista no cartão de crédito, recebe 15% de desconto
+			3 Em duas vezes, preço normal de etiqueta sem juros
+			4 Em três vezes, preço normal de etiqueta mais juros de 10%*/
+	
+	
+	
+	
+	public static void main(String[] args) {
+
+		double valorDoProduto; 
+		double dinheiro;
+		double credito; 
+		double normal;
+		double juros;
+		double pagamento;
+	
+	System.out.print("Incira o valor do produto");
+	valorDoProduto = leia.next();
+	System.out.print("Incira forma de pagamento: ");
+	pagamento = leia.next(
+			
+	if (dinheiro = (valorDoProduto*0.2));
+	{
+		("Pago a vista") = leia.next()
+	}
+
+	else (credito = (valorDoProduto * 0.15));
+	{
+		("Pago creditado") = leia.next()
+	}
+	
+	else if (normal = valorDoProduto);
+	{
+		("Pago sem Juros") = leia.next()
+	}
+	
+	else if (juros = valorDoProduto * 0.1);
+	{
+		("Pago com Juros") = leita.next()
+				
+	}	
+	
+	}	
+	
+}

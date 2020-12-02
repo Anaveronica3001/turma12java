@@ -1,0 +1,46 @@
+import java.util.Scanner;
+
+package aulas;
+
+public class lista4ex3 {
+
+}
+		Scanner  leia = new Scanner (System.in);
+		
+				const int LINHA = 3
+				const int COLUNA = 3
+				int quadrinhoDe8[LINHA][COLUNA]
+				int somaDiagonal = 0
+				
+				int x = 0, y=0
+				for (x = 0; x<LINHA; x++)
+				{
+				for(y = 0; y<COLUNA; y++)
+					{
+						quadrinhoDe8[x][y] = Util.sorteia(1, 9)  //x = 2 = y= 2
+				if (x==y)
+						{
+							somaDiagonal = somaDiagonal + quadrinhoDe8[x][y]	
+						}
+						
+					}
+				}
+				for ( x = 0; x<LINHA; x++) // LINHA
+				{
+				for (y = 0; y<COLUNA; y++) //coluna
+					{
+						System.out.println(quadrinhoDe8[x][y])
+						System.out.println(" ")
+					}
+						System.out.println("\n")
+					
+				}
+						System.out.println("TOTAL DE VALORES DA DIAGONAL PRINCIPAL DA MATRIZ ", somaDiagonal)
+				
+				
+				
+			}
+
+
+			
+		}
